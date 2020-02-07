@@ -21,5 +21,9 @@ test:
   database: db/test.sqlite3
 
 production:
-  <<: *default
-  database: db/production.sqlite3
+  adapter: postgresql
+  host: ec2-3-231-46-238.compute-1.amazonaws.com
+  database: dfa2hqp4ih6up1
+  user: nxzbistowopqcf
+  port: 5432
+  password: 44abf032658eb7f890300e41961d7dfdea640235be3743f02b7db3848870e1e7
